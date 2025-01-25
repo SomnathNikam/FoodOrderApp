@@ -39,9 +39,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/start"
-        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@drawable/greenbuttongradient"
+
         android:textSize="24sp"
-        android:backgroundTintMode="@color/_83ea0c"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="@+id/textView2"
