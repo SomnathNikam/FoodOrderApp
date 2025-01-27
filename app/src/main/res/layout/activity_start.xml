@@ -40,9 +40,7 @@
         android:layout_height="wrap_content"
         android:text="@string/start"
         android:background="@drawable/greenbuttongradient"
-
         android:textSize="24sp"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="@+id/textView2"
