@@ -52,4 +52,7 @@ dependencies {
     // RETROFIT DEPENDENCY
     implementation("com.squareup.retrofit2:retrofit:2.11.0")
     implementation("com.google.code.gson:gson:2.11.0")
+
+    // Dexter Runtime Library
+    implementation("com.karumi:dexter:6.2.3")
 }

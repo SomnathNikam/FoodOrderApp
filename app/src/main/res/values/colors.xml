@@ -7,6 +7,8 @@
     <color name="endColor">#00FFAF</color>
     <color name="iconColor">#000DFF</color>
     <color name="textColor">#9E06B8</color>
+    <color name="red">#FF0000</color>
+
 
 
 </resources>

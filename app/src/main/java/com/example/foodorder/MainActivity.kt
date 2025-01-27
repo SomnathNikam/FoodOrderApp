@@ -1,5 +1,6 @@
 package com.example.foodorder
 
+
 import android.content.pm.ActivityInfo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -15,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         binding=ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-//        requestedOrientation=ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
+        requestedOrientation= ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
 
         setupChipGroup()
 

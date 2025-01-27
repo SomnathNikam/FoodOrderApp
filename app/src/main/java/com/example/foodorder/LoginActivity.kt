@@ -14,8 +14,8 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding=ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
-//
-//        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
+
+        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
 
         binding.button4.setOnClickListener {
             startActivity(Intent(this,MainActivity::class.java))
