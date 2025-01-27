@@ -28,15 +28,15 @@ class MainActivity : AppCompatActivity() {
         }
         binding.Chip2.setOnCloseIconClickListener {
             binding.chipGroup.removeView(it)
-            Toast.makeText(this,"Chip 1",Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"Chip 2",Toast.LENGTH_LONG).show()
         }
         binding.Chip3.setOnCloseIconClickListener {
             binding.chipGroup.removeView(it)
-            Toast.makeText(this,"Chip 1",Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"Chip 3",Toast.LENGTH_LONG).show()
         }
         binding.Chip4.setOnCloseIconClickListener {
             binding.chipGroup.removeView(it)
-            Toast.makeText(this,"Chip 1",Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"Chip 4",Toast.LENGTH_LONG).show()
         }
     }
 }

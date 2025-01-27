@@ -14,7 +14,7 @@ class StartActivity : AppCompatActivity() {
         binding = ActivityStartBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
+        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT // This line lock the Orientation of the app
 
 //        binding.button.setBackgroundColor(Color.parseColor("#FF0000")) // Way 1 to programmatically add color
         binding.button.setBackgroundColor(Color.RED) // Way 2 to programmatically add color
