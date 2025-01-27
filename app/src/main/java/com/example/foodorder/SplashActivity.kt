@@ -12,7 +12,7 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        requestedOrientation=ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
+//        requestedOrientation=ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
         Handler().postDelayed({
             val intent = Intent(this, StartActivity::class.java)
             startActivity(intent)

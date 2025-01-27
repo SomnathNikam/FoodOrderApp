@@ -16,15 +16,15 @@
         <activity
             android:name=".SignupActivity"
             android:exported="false"
-            android:configChanges="orientation|screenSize"/>
+           />
         <activity
             android:name=".LoginActivity"
             android:exported="false"
-            android:configChanges="orientation|screenSize"/>
+            />
         <activity
             android:name=".SplashActivity"
             android:exported="true"
-            android:configChanges="orientation|screenSize">
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,8 +33,10 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false"
-            android:configChanges="orientation|screenSize"/>
+            android:exported="false" />
+        <activity
+            android:name=".StartActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -79,7 +79,7 @@
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/lock"
-        android:drawablepadding="20dp"
+        android:drawablePadding="20dp"
         android:hint="@string/password"
         android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"

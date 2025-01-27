@@ -3,4 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="_83ea0c">#83EA0C</color>
+    <color name="startColor">#8AE61F</color>
+    <color name="endColor">#00FFAF</color>
+    <color name="iconColor">#000DFF</color>
+    <color name="textColor">#9E06B8</color>
+
+
 </resources>
