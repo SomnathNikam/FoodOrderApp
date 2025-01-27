@@ -2,4 +2,14 @@
     <string name="app_name">FoodOrder</string>
     <string name="start">Start</string>
     <string name="happy_meals">Happy Meals</string>
+    <string name="food_court">Food Court</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="password">Password</string>
+    <string name="or">Or</string>
+    <string name="continue_with">Continue with</string>
+    <string name="login">Login</string>
+    <string name="facebook">Facebook</string>
+    <string name="don_t_have_account">Don\'t have Account?</string>
+    <string name="delivering_you_nthe_magic_of_food">Delivering you\nthe Magic of Food</string>
+    <string name="google">Google</string>
 </resources>
